@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lbl_btn_ingresar">Ingresar</string>
+    <string name="lbl_user">Usuario</string>
+    <string name="lbl_contrasenia">Contrasenia</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_ic_splash">50dp</dimen>
+    <dimen name="left_size">60dp</dimen>
+    <dimen name="right_size">60dp</dimen>
+    <dimen name="size_lbl_login">14sp</dimen>
+    <dimen name="top_size">60dp</dimen>
+</resources>
