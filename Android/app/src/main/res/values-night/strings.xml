@@ -3,4 +3,5 @@
     <string name="lbl_btn_ingresar">Ingresar</string>
     <string name="lbl_user">Usuario</string>
     <string name="lbl_contrasenia">Contrasenia</string>
+    <string name="server_url">http://localhost/codigo</string>
 </resources>
