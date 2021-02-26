@@ -14,6 +14,7 @@ import ec.com.codigobarra.CodigoBarraAplication;
 import ec.com.codigobarra.R;
 import ec.com.codigobarra.interfaces.ICodigoBarra;
 import ec.com.codigobarra.response.UsuarioResponse;
+import ec.com.codigobarra.utils.SharedPreferencesManager;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -89,6 +90,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void llamarALaOtraActividad() {
         Intent intent = new Intent(LoginActivity.this, MenuActivity.class);
+        SharedPreferencesManager.setValor(this, getString(R.string.nombre_preferemcia),"usuario", edtUsuario.getText().toString());
         startActivity(intent);
         finish();
     }

@@ -3,5 +3,11 @@
     <string name="lbl_btn_ingresar">Ingresar</string>
     <string name="lbl_user">Usuario</string>
     <string name="lbl_contrasenia">Contrasenia</string>
-    <string name="server_url">http://localhost/codigo</string>
+    <string name="default_notification_channel_id">9000</string>
+    <string name="nombre_preferemcia">laboratoriosHG</string>
+    <string name="no_internet">No hay internet</string>
+    <string name="location_permission_denied">Permiso denegado</string>
+    <string name="permission_required_toast">Permiso denegado toast</string>
+    <string name="permission_rationale_location">Permiso de ubicación denegado</string>
+    <string name="ubicacion_actual">Ubicación Actual</string>
 </resources>
